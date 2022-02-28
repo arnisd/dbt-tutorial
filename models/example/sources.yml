@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: mysql_sakila
+    database: sakila_raw
+    tables:
+      - name: actor
+      - name: store
+      - name: staff
+      - name: address
+      - name: customer
+      - name: city
+      - name: country
+      - name: rental
